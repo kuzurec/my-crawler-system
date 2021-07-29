@@ -1,13 +1,14 @@
-/** @jsxRuntime classic */
-/** @jsx jsx */
-import { jsx, css } from '@emotion/react';
+import React from 'react';
+import { css } from '@emotion/css/macro';
 
 function App() {
+  const mycolor = 'green';
+
   return (
     <div className="App">
       <div
-        css={css`
-          color: green;
+        className={css`
+          color: ${mycolor};
         `}
       >
         Hello world
