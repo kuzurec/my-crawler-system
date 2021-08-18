@@ -2,7 +2,8 @@
   "name": "@kuzurec/ui",
   "version": "1.0.0",
   "description": "Kuzure blog component ui library",
-  "main": "dist/index.js",
+  "main": "esm/index.js",
+  "module": "esm/index.js",
   "files": [
     "esm",
     "dist",
@@ -11,7 +12,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "boudle": "rollup -c rollup.config.ts --watch",
-    "build": "tsc -p ./tsconfig.json --target ES5 --module ESNext --outDir esm"
+    "build": "tsc -p ./tsconfig.json -w"
   },
   "author": "",
   "license": "ISC",

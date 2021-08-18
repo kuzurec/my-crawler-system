@@ -2,7 +2,9 @@
 
 # dependencies
 /node_modules
-/packages/kuzure-ui/node_modules
+/**/node_modules
+/**/esm
+/**/dist
 /.pnp
 .pnp.js
 
