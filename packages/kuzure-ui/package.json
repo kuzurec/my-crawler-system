@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "boudle": "rollup -c rollup.config.ts --watch",
+    "boudle": "rollup -c rollup.config.ts",
     "build": "tsc -p ./tsconfig.json -w"
   },
   "author": "",
@@ -41,14 +41,17 @@
     "node"
   ],
   "devDependencies": {
+    "@ctrl/tinycolor": "^3.4.0",
     "@emotion/babel-plugin": "^11.3.0",
     "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-image": "^2.1.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
+    "@types/lodash": "^4.14.172",
     "@types/node": "^16.6.1",
     "@typescript-eslint/eslint-plugin": "^4.28.5",
     "@typescript-eslint/parser": "^4.28.5",
+    "lodash": "^4.17.21",
     "rollup": "^2.56.2",
     "rollup-plugin-babel": "^4.4.0",
     "ts-loader": "^9.2.4",
